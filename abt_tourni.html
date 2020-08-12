@@ -8,7 +8,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="icon" href="myself1.jpg" type="image/x-icon"><!-- Some browseres recognize this-->
     <link rel="shortcut" href="myself1.jpf" type="image/x-icon"><!-- Some browsers recognize this so we have to include both -->
-    <meta name="name" content="Hrithik's First Project"><!-- search engines like google will show as feed when searched using this-->
+    <meta name="name" content="Hrithik's Portal"><!-- search engines like google will show as feed when searched using this-->
     <meta name="robot" content="noindex, nofollow"><!-- this is used when we don't want our website to be shown Remainder: when publishing the website make sure this tag is commented-->
     <title>Tournaments</title>
     <link rel="stylesheet" href="css/tourni.css">
@@ -64,16 +64,22 @@ like IPL will be conducted by these sub-authorities under the jurisdiction of IC
 </div>
     <h2>Local Tournaments</h2>
    <div class="top">
+
   <input type="button" name="India" alt="India Premiere League" src="images/page3/ipl.jfif" onclick="upDate(this)" value="India">
-  <input type="button" name="England" src="images/page3/t20blast.jpg" alt="England Domestic Cricket" onclick="upDate(this)" value="England">
+  <input type="button" name="England" alt="England Domestic Cricket" src="images/page3/t20blast.jpg"  onclick="upDate(this)" value="England">
   <input type="button" name="Australia" src="images/page3/bigbash.png" alt="Australian Bigbash League" onclick="upDate(this)" value="Australia">
-  <input type="button" name="New Zealand" src="images/page3/supersmash.jfif" alt="New Zealand Supersmash League" onclick="upDate(this)" value="New Zealand">
-   </div>
+</div>
+
+
    <div class="bottom">
+  <input type="button" name="New Zealand" src="images/page3/supersmash.jfif" alt="New Zealand Supersmash League" onclick="upDate(this)" value="New Zealand">
   <input type="button" name="Bangladesh" alt="Bangladesh Premiere League" src="images/page3/bpl.png" onclick="upDate(this)" value="Bangladesh">
   <input type="button" name="South Africa" src="images/page3/msl.png" alt="South Africa" onclick="upDate(this)" value="South Africa">
+</div>
+<div class="side">
   <input type="button" name="Ireland" src="images/page3/euro.jfif" alt="Euro t20 slam" onclick="upDate(this)" value="Ireland">
   <input type="button" name="West Indies" src="images/page3/wi.jfif" alt="Caribbean Premiere League" onclick="upDate(this)" value="Wesi Indies">
+  </div>
 
    </div>
    <div id = "image">
@@ -82,9 +88,10 @@ like IPL will be conducted by these sub-authorities under the jurisdiction of IC
   <script type="text/javascript">
   function upDate(pic){
     var src = pic.getAttribute( "src" );
-      var alt = pic.getAttribute( "alt" );
+    //  var alt = pic.getAttribute( "alt" );
       document.getElementById('image').style.backgroundImage = "url('" + src + "')";
-      document.getElementById('image').innerHTML = alt;
+      //document.getElementById('image').innerHTML = alt;
+      document.getElementById('image').h3.style.display = 'none';
 }
   </script>
   <footer><hr>
