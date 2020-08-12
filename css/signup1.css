@@ -1,38 +1,27 @@
-/*
 @media screen and (min-width:100px) {
-.container{
-  margin: 25px;
-  position: relative;
-  width: 50%;
-  border: 1px #761283 solid;
-  margin-left: 25%;
-  margin-top: 10%;
-  border-radius: 25px;
-}
-
-h1, h2{
-  text-align: center;
-}
-
-.container a{
-  display: inline;
-}
-}
-@media screen and (min-width:800px) {
   .container{
-    width: 50%;
-    height: 60vh;
-    border: 1px #761283 solid;
+    background: #f9f9f9;
+    margin: 25px;
+    position: relative;
+    width: 70%;
+    border: 2px #901827 solid;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10%;
     border-radius: 25px;
+    border-style: hidden;
+    border-bottom-style: double;
+    border-top-style: double;
+    -webkit-box-shadow: 5px 0 1px #761283 inset;
+  	-moz-box-shadow: 0 1px 1px #761283 inset;
+  	-ms-box-shadow: 1px 0 1px #761283 inset;
+  	-o-box-shadow: 0 1px 1px #761283 inset;
+  	box-shadow: 5px 0 1px #901627 inset;
+
   }
-  .container .form-horizontal .form-group input{
-    width: 100%;
-    object-fit: contain;
-  }
-}*/
+}
 
-
-
+@media screen and (min-width:600px) {
 .container{
   background: #f9f9f9;
   margin: 25px;
@@ -40,13 +29,12 @@ h1, h2{
   width: 50%;
   border: 2px #901827 solid;
   margin-left: 25%;
+  margin-right: 25%;
   margin-top: 10%;
   border-radius: 25px;
   border-style: hidden;
   border-bottom-style: double;
   border-top-style: double;
-/*  border-left-style: ridge;
-  border-right-style: ridge;*/
   -webkit-box-shadow: 5px 0 1px #761283 inset;
 	-moz-box-shadow: 0 1px 1px #761283 inset;
 	-ms-box-shadow: 1px 0 1px #761283 inset;
@@ -54,6 +42,8 @@ h1, h2{
 	box-shadow: 5px 0 1px #901627 inset;
 
 }
+}
+
 
 h1{
   text-align: center;
@@ -62,13 +52,6 @@ h1{
   font: bold  Helvetica, Arial, sans-serif;
   font-size: 40px;
 }
-/*h1 {
- color: #7E7E7E;
- font: bold 25px Helvetica, Arial, sans-serif;
- letter-spacing: -0.05em;
- line-height: 20px;
- margin: 10px 0 30px;
-}*/
 h2{
   text-align: center;
   color: #7E7E7E;
@@ -94,30 +77,12 @@ input{
   opacity: 1.0;
 }
 
-/*#id_5 {
-  display: inline-block;
-  margin-left: 20%;
-}*/
 hr {
   border: 2px solid #000000;
   margin-bottom: 25px;
   opacity: 0.1;
   border-radius: 90%;
 }
-/*a {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-  opacity: 0.9;
-}
-
-a:hover {
-  opacity:1;
-}*/
 #id_5, #id_6{
   float: left;
   width: 45%;
