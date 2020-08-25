@@ -12,8 +12,6 @@
     border-style: hidden;
     border-bottom-style: double;
     border-top-style: double;
-  /*  border-left-style: ridge;
-    border-right-style: ridge;*/
     -webkit-box-shadow: 5px 0 1px #761283 inset;
   	-moz-box-shadow: 0 1px 1px #761283 inset;
   	-ms-box-shadow: 1px 0 1px #761283 inset;
@@ -37,8 +35,6 @@
   border-style: hidden;
   border-bottom-style: double;
   border-top-style: double;
-/*  border-left-style: ridge;
-  border-right-style: ridge;*/
   -webkit-box-shadow: 5px 0 1px #761283 inset;
 	-moz-box-shadow: 0 1px 1px #761283 inset;
 	-ms-box-shadow: 1px 0 1px #761283 inset;
@@ -54,13 +50,6 @@ h1{
   font: bold  Helvetica, Arial, sans-serif;
   font-size: 40px;
 }
-/*h1 {
- color: #7E7E7E;
- font: bold 25px Helvetica, Arial, sans-serif;
- letter-spacing: -0.05em;
- line-height: 20px;
- margin: 10px 0 30px;
-}*/
 h2{
   text-align: center;
   color: #7E7E7E;
@@ -85,10 +74,6 @@ input{
   border-radius: 25px;
   opacity: 1.0;
 }
-/*#id_5 {
-  display: inline-block;
-  margin-left: 20%;
-}*/
 hr {
   border: 2px solid #000000;
   margin-bottom: 25px;
